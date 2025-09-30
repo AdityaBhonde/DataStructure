@@ -59,8 +59,8 @@ A **linked list** is a data structure used for storing collections of data. A li
   4) Can be made just as long as required (until system memory exhausts).
   5) Does not waste memory space (but takes some extra memory for pointers). It allocates memory as list grows.
 
-### Diagram: Singly Linked List Example
-$$\mathbf{Head} \rightarrow \begin{array}{|c|c|} \hline 4 & \rightarrow \\ \hline \end{array} \rightarrow \begin{array}{|c|c|} \hline 15 & \rightarrow \\ \hline \end{array} \rightarrow \begin{array}{|c|c|} \hline 7 & \rightarrow \\ \hline \end{array} \rightarrow \begin{array}{|c|c|} \hline 40 & \rightarrow \\ \hline \end{array} \rightarrow \mathbf{NULL}$$
+### Singly Linked List Example
+    [Head] -> [4 | next] -> [15 | next] -> [7 | next] -> [40 | NULL]
 
 ### Types of Linked List
    1) **Singly Linked List** → Each node contains data + next pointer. Last node points to NULL.
@@ -115,5 +115,6 @@ Space complexity tells you **how much memory** an algorithm uses relative to the
 | **Example** | $O(1)$ Extra Space | $O(1)$ means the algorithm uses a fixed amount of extra memory (like a few variables), regardless of how large the input ($n$) is. |
 
 ***
+
 
 
